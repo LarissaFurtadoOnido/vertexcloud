@@ -8,44 +8,27 @@ body{
     background-color: aliceblue;
 }
 
-/*#cabecalho::before{
-    content: '';
-    background-image: url('imagens/imagem2.png');
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    opacity: 0.4;
-}*/
-
-h2{
-    background: linear-gradient(90deg, rgba(23,51,93,1) 0%, rgba(163,171,178,1) 42%);     
-    background-clip: text;
-    color: transparent;
-    padding: 10px 0px;
-
-    font-family: "Raleway", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 505;
-    font-style: normal;
-    font-size: 30px;
-
-    margin-left: 20px;
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #A3ABB2; 
+    height: 15vh;
 }
 
 .menu{
-    font-family: "Kanit", sans-serif;
-    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
     font-style: normal;
-    font-size: 17px;
+    font-size: 15px;
     list-style: none;
     display: flex;
-    
+    letter-spacing: 1px;
 }
 
 .menu li{
-    margin-left: 35px;
+    margin-left: 30px;
 }
 
 .menu a{
@@ -53,14 +36,6 @@ h2{
     color: #3D4243;
     position: relative;
     padding: 0 7px 0 7px;
-}
-
-nav{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #A3ABB2; 
-    height: 15vh;
 }
 
 .menu a::after{
@@ -84,14 +59,12 @@ nav{
     margin-left: 1px;
 }
 
-#virt{
-    position: absolute;
-    margin-left: 20px;
-    margin-top: 25px;
-    display: inline-block;
-}
-
 button{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0.5px;
     position: relative;
     margin-top: 125px;
     padding: 10px 15px;
@@ -124,6 +97,7 @@ button:hover::before{
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    letter-spacing: 0.5px;
     color: #3D4243;
     margin: 20px;
     line-height: 155%;
@@ -131,7 +105,40 @@ button:hover::before{
     
 }
 
+#virt{
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 25px;
+    display: inline-block;
+}
 
+h2{
+    background: linear-gradient(90deg, rgba(23,51,93,1) 0%, rgba(163,171,178,1) 42%);     
+    background-clip: text;
+    color: transparent;
+    padding: 10px 0px;
+
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 505;
+    font-style: normal;
+    font-size: 30px;
+
+    margin-left: 20px;
+}
+
+footer{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 1px;
+    color: #3D4243;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-top: 186px;
+}
 
 
 
