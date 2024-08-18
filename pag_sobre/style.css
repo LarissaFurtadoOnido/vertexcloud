@@ -84,6 +84,12 @@ nav{
     margin-left: 20px;
 }
 
+.container, #lista{
+    text-align: justify;
+    position: relative;
+    margin-right: 20px;
+}
+
 #virt{
     position: absolute;
     margin-left: 20px;
@@ -92,7 +98,7 @@ nav{
 }
 
 h2{
-    background: linear-gradient(90deg, rgba(23,51,93,1) 0%, rgba(163,171,178,1) 19%); 
+    background: linear-gradient(90deg, rgba(23,51,93,1) 0%, rgba(163,171,178,1) 8%); 
     background-clip: text;
     color: transparent;
     padding: 10px 0px;
